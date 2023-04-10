@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evka-2 Family</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="img/favicon (2).ico" rel="icon" type="image/x-icon" />
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <h2>EVKA-2 FAMILY</h2>
+            <ul class="list-group">
+                <li><a href="index.html" onclick="playSound()">Anasayfa</a></li>
+                <li><a href="galeri.html" onclick="playSound()">Galeri</a></li>
+                <li><a href="#" onclick="playSoundAlert()">Aile Fertleri</a></li>
+                <li><a href="#" onclick="playSoundAlert()">Geleceğimiz</a></li>
+                <li><a href="Iqtesti.html" onclick="playSound()">IQ testi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="quiz_container">
+        <div class="quiz">
+            <div class="quiz_header"><h1>Dunyanin En Gercekci IQ Testi</h1></div>
+            <div class="quiz_body">
+                <h3 id="question">Question Text</h3>
+                <div id="buttons">
+                    <button id="btn0" class="button"><span id="choice0">Choice0</span></button>
+                    <button id="btn1" class="button"><span id="choice1">Choice1</span></button>
+                    <button id="btn2" class="button"><span id="choice2">Choice2</span></button>
+                    <button id="btn3" class="button"><span id="choice3">Choice3</span></button>
+                </div>
+            </div>
+            <div id="progress"></div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <audio id="sound1" src="sesler/Or Ço Ben Bunlardan Değilim Abi - Ses Efekti (HD).mp3"></audio>
+    <audio id="sound2" src="sesler/Lan Caz Yapma [Kuzey Tekinoğlu] - Ses Efekti (HD).mp3"></audio>
+    <script src="quiz.js"></script>
+</body>
+</html>
